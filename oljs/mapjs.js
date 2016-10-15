@@ -24,11 +24,11 @@ var layer = new ol.layer.Tile({
       });
 
 var map = new ol.Map({
-        layers: [layer],
+        layers: [layer,vector],
         target: 'map',
         view: new ol.View({
           center: ol.proj.fromLonLat([73.85,18.55]),
-          zoom: 9
+          zoom: 8
         })
       });
 
